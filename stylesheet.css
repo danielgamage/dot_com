@@ -1,0 +1,41 @@
+body {
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 1.25em;
+	}
+	
+ul {
+		list-style-type:none;
+	}
+
+img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+footer {
+		text-align: center;
+	}
+	
+.container {
+		text-align: center;
+	}
+
+.center {
+		float: center;
+	}
+	
+
+
+@media (min-width: 600px) {
+
+	.sidebar {
+		width: 10em;
+		float: left;
+	}
+	.content {
+		width: calc(100% - 10em);
+		float: right;
+	}
+
+
+	}
